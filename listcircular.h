@@ -32,17 +32,17 @@ struct CircularLinkedNode
 };
 
 /*!
- * \brief The ListCircular class
+ * \brief The ListCircularDataStructure class
  */
-class ListCircular
+class ListCircularDataStructure
 {
 public:
     /*!
-     * \brief ListCircular
+     * \brief ListCircularDataStructure
      */
-    ListCircular();
+    ListCircularDataStructure();
 
-    ~ListCircular();
+    ~ListCircularDataStructure();
 
     /*!
      * \brief insertBeforeStart

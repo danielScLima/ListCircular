@@ -1,11 +1,11 @@
 #include "listcircular.h"
 
-ListCircular::ListCircular()
+ListCircularDataStructure::ListCircularDataStructure()
 {
 
 }
 
-ListCircular::~ListCircular()
+ListCircularDataStructure::~ListCircularDataStructure()
 {
     CircularLinkedNode* initialHead = start;
     if (initialHead != nullptr)
@@ -21,7 +21,7 @@ ListCircular::~ListCircular()
     }
 }
 
-void ListCircular::insertBeforeStart(const std::string& data)
+void ListCircularDataStructure::insertBeforeStart(const std::string& data)
 {
     struct CircularLinkedNode* tmp = new CircularLinkedNode(data);
 
@@ -46,7 +46,7 @@ void ListCircular::insertBeforeStart(const std::string& data)
     }
 }
 
-void ListCircular::insertAfterStart(const std::string& data)
+void ListCircularDataStructure::insertAfterStart(const std::string& data)
 {
     struct CircularLinkedNode* tmp = new CircularLinkedNode(data);
 
@@ -68,7 +68,7 @@ void ListCircular::insertAfterStart(const std::string& data)
     }
 }
 
-CircularLinkedNode *ListCircular::removeBeforeStart()
+CircularLinkedNode *ListCircularDataStructure::removeBeforeStart()
 {
     if (start == nullptr)
         return nullptr;
@@ -93,7 +93,7 @@ CircularLinkedNode *ListCircular::removeBeforeStart()
     }
 }
 
-CircularLinkedNode *ListCircular::removeAfterStart()
+CircularLinkedNode *ListCircularDataStructure::removeAfterStart()
 {
     if (start == nullptr)
         return nullptr;
@@ -115,7 +115,7 @@ CircularLinkedNode *ListCircular::removeAfterStart()
     }
 }
 
-std::vector<std::string> ListCircular::getElementsAsVector()
+std::vector<std::string> ListCircularDataStructure::getElementsAsVector()
 {
     std::vector<std::string> vec;
 
