@@ -1,5 +1,7 @@
 Circular List
 ====================
+Building with AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/p1t7ulgbr5k15jvd?svg=true)](https://ci.appveyor.com/project/DanielSLima/listcircular)
+
 Building with Travis: [![Build Status](https://www.travis-ci.com/danielScLima/ListCircular.svg?branch=master)](https://www.travis-ci.com/danielScLima/ListCircular)
 
 This repository has a project with the implementation of a Circular List.
